@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 14, 0.959);
+
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    list-style:none
+}
+a{
+    /* Esto retira el subrayado de los anchor */
+    text-decoration: none;
+}
+
+.center{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#foto{
+    background-color: rgb(91, 149, 172);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 85%;
+    height: 99.4%;
+    
+}
+
+/* Haciendo uso de un id */
+#cajaUno{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+   
+   
+    /* En navegadores viejitos puede no funcionar gap */
+}
+
+#foto img{
+    width: 500px;;
+    height: 600px;
+    margin-left: 45px;
+    margin-right: 70px;
+}
+
+#yoSoy h1 {
+    font-size: 65px;
+    margin-top: 10px;
+    color: white;
+    
+}
+#yoSoy h2 {
+    font-size: 65px;
+    margin-top: 0;
+    color: mediumpurple;
+}
+
+hr {
+    margin-top: 30px;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(243, 237, 237, 0.644);
+    
+  }
+
+.tituloCenter{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2{
+    color: mediumpurple;
+    font-size: 30px;
+    
+   
+}
+
+p {
+    color: white;
+}
+
+  #dos{
+    width: 100%;
+    margin-left: 0px;
+    
+}
+
+.columnas4{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-bottom: 10px;
+    
+
+}
+
+.columnas4 div {
+
+    border-width:2px;
+    border-top-width: 0px;
+    border-style:solid;
+    border-color:rgb(173, 219, 219);
+    margin: 10px;
+    margin-left: 50px;
+    background-color: rgba(243, 236, 233, 0.103);
+    
+}
+
+.columnas4 h2 {
+
+   text-align: center;
+    
+}
+
+.columnas4 p {
+
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+     
+ }
+
+ .columnas2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 10px;
+ }
+
+ .columnas2 div ul{
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+ }
+
+ .columnas2 div ul li img{
+    width: 180px;
+    height:180px;
+    border-style: solid;
+    border-color: rgba(98, 78, 189, 0.384);
+}
+
+.columnas3A div {
+    border-width:0.5px;
+    border-style:solid;
+    border-color:rgb(173, 219, 219);
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.columnas3A p {
+
+    text-align: right;
+    padding: 0px;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 30px;
+    margin-top: 0px;
+    text-align: start;
+     
+ }
+
+ .columnas3A h2 {
+
+    text-align: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 1000px;
+    margin-top: 8px;
+ }
+
+ .columnasGustos{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    margin-bottom: 10px;
+}
+
+.columnasGustos img{
+    margin-left: 30px;
+    border-style: solid;
+    border-color: rgba(0, 0, 255, 0.192);
+    max-width: 400px;
+    
+}
+.contacto{
+    height: 100px;
+    border-style: solid;
+    border-color: blue;
+    color: white;
+}
+
+.columnasContactos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+}
+
+.columnasContactos div h1{
+   font-size: 70px;
+   color: mediumpurple;
+   margin-left: 50px;
+   margin-top: 15%;
+}
+
+.columnasContactos {
+    background-color: rgba(243, 236, 233, 0.103);
+ }
+
+ 
+
+
+
